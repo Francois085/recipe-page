@@ -1,5 +1,22 @@
 # Front-end Style Guide
 
+## main container
+width: 740
+height : 1705px
+padding: 45px
+
+## image 
+width : 655px
+height : 300 px
+padding bottom : 40px
+
+Premier Titre padding bottom 25px
+1er paragraphe padding bottom 25 px
+
+container timing : 180 px X 655 px
+container padding : 25px
+text timing: 15px
+
 ## Layout
 
 The designs were created to the following widths:

@@ -50,6 +50,7 @@ body {
 
 .wrapper{
     max-width: 46rem;
+    margin: 5rem 0rem;
     padding: 2.8rem;
     background-color: white;
     border-radius: 20px;
@@ -108,9 +109,22 @@ ol > li::marker {
 .nutrition p{
     margin-bottom: 1rem;
 }
-.line{
-    margin-bottom: 1rem;
+.tabnutrition{
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
 }
+.line{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.7rem 0rem;
+}
+
+.detail{
+/* display: inline-block; */
+/* margin-left: 50%; */
+color:hsl(14, 45%, 36%);
+font-weight: 700;
 
 
 

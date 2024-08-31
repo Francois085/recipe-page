@@ -82,7 +82,7 @@ ul > li::marker {
 
 }
 
-.ingredients{
+.ingredients, .instructions{
     padding-bottom: 1.5rem;
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
@@ -103,6 +103,13 @@ ol > li::marker {
 .instructions li{
     margin-bottom: 0.5rem;
     padding-left: 1rem;
+}
+
+.nutrition p{
+    margin-bottom: 1rem;
+}
+.line{
+    margin-bottom: 1rem;
 }
 
 

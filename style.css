@@ -16,6 +16,7 @@ h1 {
     padding: 2.4rem 0rem;
     font-weight: 590;
     font-size: 2.3rem;
+    line-height: 2.5rem;
 }
 
 h2{
@@ -121,10 +122,31 @@ ol > li::marker {
 }
 
 .detail{
-/* display: inline-block; */
-/* margin-left: 50%; */
 color:hsl(14, 45%, 36%);
 font-weight: 700;
+}
 
+@media only screen and (max-width: 390px) {
+
+    .wrapper {
+        margin-top: 0rem;
+        padding: 0rem 0rem;
+        font-size: 1rem;
+    }
+    .introduction, .timing,.ingredients, .nutrition, .instructions{
+        padding: 0rem 2.3rem;
+    }
+
+    h1{
+        font-size: 2.2rem;
+        padding: 2.3rem 2.3rem;
+    }
+ 
+    img {
+        padding : -1rem;
+        border-radius: 0;
+    }
+}
+    
 
 
